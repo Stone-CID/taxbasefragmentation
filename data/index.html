@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+
+<html lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- This is Squarespace. --><!-- amethyst-dove-9jjz -->
+
+<meta charset="utf-8"/>
+<title>Data | Explore Tax Data Now — Tax Base Fragmentation</title>
+<meta content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" http-equiv="Accept-CH"/><link href="../assets/27d34fd9d08d-default-favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://stone-cid.github.io/taxbasefragmentation/data/" rel="canonical"/>
+<meta content="Tax Base Fragmentation" property="og:site_name"/>
+<meta content="Data | Explore Tax Data Now — Tax Base Fragmentation" property="og:title"/>
+<meta content="https://stone-cid.github.io/taxbasefragmentation/data/" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="Download tax base fragmentation data based on 2019 assessor records by jurisdiction and metro area." property="og:description"/>
+<meta content="Data | Explore Tax Data Now — Tax Base Fragmentation" itemprop="name"/>
+<meta content="https://stone-cid.github.io/taxbasefragmentation/data/" itemprop="url"/>
+<meta content="Download tax base fragmentation data based on 2019 assessor records by jurisdiction and metro area." itemprop="description"/>
+<meta content="Data | Explore Tax Data Now — Tax Base Fragmentation" name="twitter:title"/>
+<meta content="https://stone-cid.github.io/taxbasefragmentation/data/" name="twitter:url"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Download tax base fragmentation data based on 2019 assessor records by jurisdiction and metro area." name="twitter:description"/>
+<meta content="Download tax base fragmentation data based on 2019 assessor records by jurisdiction and metro area." name="description"/>
+
+
+<style data-sqsp-font-ids="6a313c62528a5060a138f904,6a313b95691a2d058d1a1eab">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/3ed3e31f12f3-cyrillic-ext.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* latin */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/b5d1bebf60ef-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/2c8fe2f7698b-vietnamese.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/9793e3364943-cyrillic.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/e9b8317764bc-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/54933cad69f3-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/aa9b356af5e9-vietnamese.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/12eeac743388-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/4c0e98bda14e-cyrillic-ext.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/5ce201f9880b-vietnamese.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/06f0fb0c5967-cyrillic.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/e74bcba08b09-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/78b00075ef05-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/41c5c495af01-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/f37486b7b4b9-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/f41167ead0aa-vietnamese.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<link href="../assets/516d8485f994-user-account-core-3ce4a177e88d8fa4-min.en-US.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/c9dbe9f9d3f1-website.components.html.styles.css" rel="stylesheet" type="text/css"/><link href="../assets/eaa953a3b078-site.css" rel="stylesheet" type="text/css"/><link href="../assets/9fd140d6d817-static.css" rel="stylesheet" type="text/css"/>
+<!-- End of Squarespace Headers -->
+<link href="../assets/static-site.css" rel="stylesheet"/></head>
+<body class="primary-button-style-solid primary-button-shape-pill secondary-button-style-outline secondary-button-shape-pill tertiary-button-style-outline tertiary-button-shape-underline form-field-style-outline form-field-shape-pill form-field-border-all form-field-hover-focus-outline form-field-checkbox-type-icon form-field-checkbox-fill-outline form-field-checkbox-color-inverted form-field-checkbox-shape-rounded form-field-checkbox-layout-fit form-field-radio-type-icon form-field-radio-fill-outline form-field-radio-color-inverted form-field-radio-shape-rounded form-field-radio-layout-fit form-field-survey-fill-outline form-field-survey-color-inverted form-field-survey-shape-rounded form-submit-button-style-label tweak-global-animations-animation-type-none tweak-global-animations-animation-curve-ease image-block-poster-text-alignment-left image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-content-position-center image-block-collage-text-alignment-left image-block-stack-text-alignment-left tweak-blog-alternating-side-by-side-width-full tweak-blog-alternating-side-by-side-image-aspect-ratio-11-square tweak-blog-alternating-side-by-side-text-alignment-left tweak-blog-alternating-side-by-side-read-more-style-show tweak-blog-alternating-side-by-side-image-text-alignment-middle tweak-blog-alternating-side-by-side-delimiter-bullet tweak-blog-alternating-side-by-side-meta-position-top tweak-blog-alternating-side-by-side-primary-meta-categories tweak-blog-alternating-side-by-side-secondary-meta-date tweak-blog-alternating-side-by-side-excerpt-show form-use-theme-colors tweak-global-animations-complexity-level-detailed tweak-global-animations-animation-style-fade tweak-blog-masonry-width-full tweak-blog-masonry-text-alignment-left tweak-blog-masonry-primary-meta-categories tweak-blog-masonry-secondary-meta-date tweak-blog-masonry-meta-position-top tweak-blog-masonry-read-more-style-show tweak-blog-masonry-delimiter-space tweak-blog-masonry-image-placement-above tweak-blog-masonry-excerpt-show tweak-portfolio-grid-overlay-width-full tweak-portfolio-grid-overlay-height-large tweak-portfolio-grid-overlay-image-aspect-ratio-11-square tweak-portfolio-grid-overlay-text-placement-center tweak-portfolio-grid-overlay-show-text-after-hover tweak-blog-single-column-width-full tweak-blog-single-column-text-alignment-left tweak-blog-single-column-image-placement-above tweak-blog-single-column-delimiter-bullet tweak-blog-single-column-read-more-style-show tweak-blog-single-column-primary-meta-categories tweak-blog-single-column-secondary-meta-date tweak-blog-single-column-meta-position-top tweak-blog-single-column-content-full-post header-width-full tweak-transparent-header tweak-fixed-header-style-basic tweak-blog-item-width-medium tweak-blog-item-text-alignment-left tweak-blog-item-meta-position-above-title tweak-blog-item-show-categories tweak-blog-item-show-date tweak-blog-item-delimiter-bullet tweak-blog-side-by-side-width-full tweak-blog-side-by-side-image-placement-left tweak-blog-side-by-side-image-aspect-ratio-11-square tweak-blog-side-by-side-primary-meta-categories tweak-blog-side-by-side-secondary-meta-date tweak-blog-side-by-side-meta-position-top tweak-blog-side-by-side-text-alignment-left tweak-blog-side-by-side-image-text-alignment-middle tweak-blog-side-by-side-read-more-style-show tweak-blog-side-by-side-delimiter-bullet tweak-blog-side-by-side-excerpt-show tweak-events-stacked-width-full tweak-events-stacked-height-large tweak-events-stacked-show-thumbnails tweak-events-stacked-thumbnail-size-32-standard tweak-events-stacked-date-style-with-text tweak-events-stacked-show-time tweak-events-stacked-show-location tweak-events-stacked-show-excerpt tweak-blog-basic-grid-width-inset tweak-blog-basic-grid-image-aspect-ratio-32-standard tweak-blog-basic-grid-text-alignment-center tweak-blog-basic-grid-delimiter-bullet tweak-blog-basic-grid-image-placement-above tweak-blog-basic-grid-read-more-style-show tweak-blog-basic-grid-primary-meta-categories tweak-blog-basic-grid-secondary-meta-date tweak-blog-basic-grid-excerpt-show tweak-portfolio-grid-basic-width-full tweak-portfolio-grid-basic-height-large tweak-portfolio-grid-basic-image-aspect-ratio-11-square tweak-portfolio-grid-basic-text-alignment-left tweak-portfolio-grid-basic-hover-effect-fade header-overlay-alignment-center tweak-portfolio-index-background-link-format-stacked tweak-portfolio-index-background-width-full tweak-portfolio-index-background-height-large tweak-portfolio-index-background-vertical-alignment-middle tweak-portfolio-index-background-horizontal-alignment-center tweak-portfolio-index-background-delimiter-none tweak-portfolio-index-background-animation-type-fade tweak-portfolio-index-background-animation-duration-medium tweak-portfolio-hover-follow-layout-inline tweak-portfolio-hover-follow-delimiter-bullet tweak-portfolio-hover-follow-animation-type-fade tweak-portfolio-hover-follow-animation-duration-fast tweak-portfolio-hover-static-layout-inline tweak-portfolio-hover-static-front tweak-portfolio-hover-static-delimiter-hyphen tweak-portfolio-hover-static-animation-type-fade tweak-portfolio-hover-static-animation-duration-fast hide-opentable-icons opentable-style-dark tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-6880f8248e50551cd5db55bc collection-type-page collection-layout-default mobile-style-available sqs-seven-one" id="collection-6880f8248e50551cd5db55bc" tabindex="-1">
+<div class="clearfix site-wrapper" id="siteWrapper">
+<div class="floating-cart hidden" id="floatingCart">
+<a class="icon icon--stroke icon--fill icon--cart sqs-custom-cart" href="https://www.taxbasefragmentation.net/cart">
+<span class="Cart-inner">
+<svg class="icon icon--cart" height="125" viewbox="0 0 144 125" width="144">
+<path d="M4.69551 0.000432948C2.10179 0.000432948 0 2.09856 0 4.68769C0 7.27686 2.10183 9.37496 4.69551 9.37496H23.43C31.2022 28.5892 38.8567 47.8378 46.5654 67.089L39.4737 84.129C38.8799 85.5493 39.0464 87.2634 39.905 88.5418C40.7622 89.8216 42.2856 90.6283 43.8271 90.6232H122.088C124.568 90.658 126.85 88.4129 126.85 85.9359C126.85 83.4589 124.569 81.214 122.088 81.2487H50.8702L54.9305 71.5802L130.306 65.5745C132.279 65.4199 134.064 63.8849 134.512 61.9608L143.903 21.337C144.518 18.6009 142.114 15.6147 139.306 15.624H36.0522L30.9654 2.92939C30.2682 1.21146 28.4698 0 26.612 0L4.69551 0.000432948ZM39.8152 24.9999H133.385L126.097 56.5426L54.7339 62.2067L39.8152 24.9999ZM59.4777 93.75C50.8885 93.75 43.8252 100.801 43.8252 109.375C43.8252 117.949 50.8885 125 59.4777 125C68.0669 125 75.1301 117.949 75.1301 109.375C75.1301 100.801 68.0669 93.75 59.4777 93.75ZM106.433 93.75C97.8436 93.75 90.7803 100.801 90.7803 109.375C90.7803 117.949 97.8436 125 106.433 125C115.022 125 122.085 117.949 122.085 109.375C122.085 100.801 115.022 93.75 106.433 93.75ZM59.4777 103.125C62.9906 103.125 65.7378 105.867 65.7378 109.374C65.7378 112.88 62.9905 115.623 59.4777 115.623C55.9647 115.623 53.2175 112.88 53.2175 109.374C53.2175 105.867 55.9649 103.125 59.4777 103.125ZM106.433 103.125C109.946 103.125 112.693 105.867 112.693 109.374C112.693 112.88 109.946 115.623 106.433 115.623C102.92 115.623 100.173 112.88 100.173 109.374C100.173 105.867 102.92 103.125 106.433 103.125Z"></path>
+</svg>
+<div class="legacy-cart icon-cart-quantity">
+<span class="sqs-cart-quantity">0</span>
+</div>
+</span>
+</a>
+</div>
+<header class="header theme-col--primary" data-current-styles='{
+                                    "layout": "navRight",
+                                    "action": {
+                                      "href": "/appointments",
+                                      "buttonText": "Book now",
+                                      "newWindow": false
+                                    },
+                                    "showSocial": false,
+                                    "socialOptions": {
+                                      "socialBorderShape": "none",
+                                      "socialBorderStyle": "outline",
+                                      "socialBorderThickness": {
+                                        "unit": "px",
+                                        "value": 1.0
+                                      }
+                                    },
+                                    "menuOverlayAnimation": "fade",
+                                    "cartStyle": "text",
+                                    "cartText": "Cart",
+                                    "showEmptyCartState": false,
+                                    "cartOptions": {
+                                      "iconType": "stroke-9",
+                                      "cartBorderShape": "none",
+                                      "cartBorderStyle": "outline",
+                                      "cartBorderThickness": {
+                                        "unit": "px",
+                                        "value": 1.0
+                                      }
+                                    },
+                                    "showButton": false,
+                                    "showCart": false,
+                                    "showAccountLogin": false,
+                                    "headerStyle": "dynamic",
+                                    "languagePicker": {
+                                      "enabled": false,
+                                      "iconEnabled": false,
+                                      "iconType": "globe",
+                                      "flagShape": "shiny",
+                                      "languageFlags": [ ]
+                                    },
+                                    "iconOptions": {
+                                      "desktopDropdownIconOptions": {
+                                        "size": {
+                                          "unit": "em",
+                                          "value": 1.0
+                                        },
+                                        "iconSpacing": {
+                                          "unit": "em",
+                                          "value": 0.35
+                                        },
+                                        "strokeWidth": {
+                                          "unit": "px",
+                                          "value": 1.0
+                                        },
+                                        "endcapType": "square",
+                                        "folderDropdownIcon": "none",
+                                        "languagePickerIcon": "openArrowHead"
+                                      },
+                                      "mobileDropdownIconOptions": {
+                                        "size": {
+                                          "unit": "em",
+                                          "value": 1.0
+                                        },
+                                        "iconSpacing": {
+                                          "unit": "em",
+                                          "value": 0.15
+                                        },
+                                        "strokeWidth": {
+                                          "unit": "px",
+                                          "value": 0.5
+                                        },
+                                        "endcapType": "square",
+                                        "folderDropdownIcon": "openArrowHead",
+                                        "languagePickerIcon": "openArrowHead"
+                                      }
+                                    },
+                                    "mobileOptions": {
+                                      "layout": "logoLeftNavRight",
+                                      "menuIconOptions": {
+                                        "style": "doubleLineHamburger",
+                                        "thickness": {
+                                          "unit": "px",
+                                          "value": 1.0
+                                        }
+                                      }
+                                    },
+                                    "solidOptions": {
+                                      "headerOpacity": {
+                                        "unit": "%",
+                                        "value": 100.0
+                                      },
+                                      "blurBackground": {
+                                        "enabled": false,
+                                        "blurRadius": {
+                                          "unit": "px",
+                                          "value": 12.0
+                                        }
+                                      }
+                                    },
+                                    "gradientOptions": {
+                                      "gradientType": "faded",
+                                      "headerOpacity": {
+                                        "unit": "%",
+                                        "value": 90.0
+                                      },
+                                      "blurBackground": {
+                                        "enabled": false,
+                                        "blurRadius": {
+                                          "unit": "px",
+                                          "value": 12.0
+                                        }
+                                      }
+                                    },
+                                    "dropShadowOptions": {
+                                      "enabled": false,
+                                      "blur": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      },
+                                      "spread": {
+                                        "unit": "px",
+                                        "value": 0.0
+                                      },
+                                      "distance": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      }
+                                    },
+                                    "borderOptions": {
+                                      "enabled": false,
+                                      "position": "allSides",
+                                      "thickness": {
+                                        "unit": "px",
+                                        "value": 4.0
+                                      }
+                                    },
+                                    "showPromotedElement": false,
+                                    "buttonVariant": "primary",
+                                    "blurBackground": {
+                                      "enabled": false,
+                                      "blurRadius": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      }
+                                    },
+                                    "headerOpacity": {
+                                      "unit": "%",
+                                      "value": 100.0
+                                    }
+                                  }' data-first-focusable-element="" data-header-style="dynamic" data-language-picker='{
+                                    "enabled": false,
+                                    "iconEnabled": false,
+                                    "iconType": "globe",
+                                    "flagShape": "shiny",
+                                    "languageFlags": [ ]
+                                  }' data-section-id="header" data-section-theme="" data-test="header" id="header" style="
+      
+      
+      
+      
+      
+      
+    " tabindex="-1">
+<svg style="display:none" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<symbol id="circle">
+<path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z" fill="none"></path>
+</symbol>
+<symbol id="circleFilled">
+<path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z"></path>
+</symbol>
+<symbol id="dash">
+<path d="M11 11H19H3"></path>
+</symbol>
+<symbol id="squareFilled">
+<rect height="11" width="11" x="6" y="6"></rect>
+</symbol>
+<symbol id="square">
+<rect fill="none" height="9" stroke="inherit" width="9" x="7" y="7"></rect>
+</symbol>
+<symbol id="plus">
+<path d="M11 3V19"></path>
+<path d="M19 11L3 11"></path>
+</symbol>
+<symbol id="closedArrow">
+<path d="M11 11V2M11 18.1797L17 11.1477L5 11.1477L11 18.1797Z" fill="none"></path>
+</symbol>
+<symbol id="closedArrowFilled">
+<path d="M11 11L11 2" fill="none" stroke="inherit"></path>
+<path clip-rule="evenodd" d="M2.74695 9.38428L19.038 9.38428L10.8925 19.0846L2.74695 9.38428Z" fill-rule="evenodd" stroke-width="1"></path>
+</symbol>
+<symbol id="closedArrowHead" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+<path d="M18 7L11 15L4 7L18 7Z" fill="none" stroke="inherit"></path>
+</symbol>
+<symbol id="closedArrowHeadFilled" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+<path d="M18.875 6.5L11 15.5L3.125 6.5L18.875 6.5Z"></path>
+</symbol>
+<symbol id="openArrow">
+<path d="M11 18.3591L11 3" fill="none" stroke="inherit"></path>
+<path d="M18 11.5L11 18.5L4 11.5" fill="none" stroke="inherit"></path>
+</symbol>
+<symbol id="openArrowHead">
+<path d="M18 7L11 14L4 7" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrow">
+<path d="M11 17.3591L11 2" fill="none"></path>
+<path d="M2 11C5.85455 12.2308 8.81818 14.9038 11 18C13.1818 14.8269 16.1455 12.1538 20 11" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowFilled">
+<path d="M11.05 10.4894C7.04096 8.73759 1.05005 8 1.05005 8C6.20459 11.3191 9.41368 14.1773 11.05 21C12.6864 14.0851 15.8955 11.227 21.05 8C21.05 8 15.0591 8.73759 11.05 10.4894Z" stroke-width="1"></path>
+<path d="M11 11L11 1" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowHead">
+<path d="M2 7.24091C5.85455 8.40454 8.81818 10.9318 11 13.8591C13.1818 10.8591 16.1455 8.33181 20 7.24091" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowHeadFilled">
+<path d="M11.05 7.1591C7.04096 5.60456 1.05005 4.95001 1.05005 4.95001C6.20459 7.89547 9.41368 10.4318 11.05 16.4864C12.6864 10.35 15.8955 7.81365 21.05 4.95001C21.05 4.95001 15.0591 5.60456 11.05 7.1591Z"></path>
+</symbol>
+</svg>
+<div class="sqs-announcement-bar-dropzone"></div>
+<div class="header-announcement-bar-wrapper">
+<a class="header-skip-link sqs-button-element--primary" href="#page">
+        Skip to Content
+      </a>
+<style>
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .header-blur-background {
+            
+            
+        }
+    }
+</style>
+<div class="header-border" data-header-border="false" data-header-style="dynamic" data-test="header-border" style="
+
+
+
+
+"></div>
+<div class="header-dropshadow" data-header-dropshadow="false" data-header-style="dynamic" data-test="header-dropshadow" style=""></div>
+<div class="header-inner container--fluid header-mobile-layout-logo-left-nav-right header-layout-nav-right" data-test="header-inner">
+<!-- Background -->
+<div class="header-background theme-bg--primary"></div>
+<div class="header-display-desktop" data-content-field="site-title">
+<!-- Social -->
+<!-- Title and nav wrapper -->
+<div class="header-title-nav-wrapper">
+<!-- Title -->
+<div class="header-title" data-animation-role="header-element">
+<div class="header-title-text">
+<a data-animation-role="header-element" href="../" id="site-title">Tax Base Fragmentation</a>
+</div>
+</div>
+<!-- Nav -->
+<div class="header-nav">
+<div class="header-nav-wrapper">
+<nav class="header-nav-list">
+<div class="header-nav-item header-nav-item--collection header-nav-item--homepage">
+<a data-animation-role="header-element" href="../">
+        Map
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--collection">
+<a data-animation-role="header-element" href="../how-to-use/">
+        How to Use
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--collection header-nav-item--active">
+<a aria-current="page" data-animation-role="header-element" href="../data/">
+        Data
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--external">
+<a data-animation-role="header-element" href="https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwaf055/8286993" rel="noopener noreferrer" target="_blank">Paper</a>
+</div>
+<div class="header-nav-item header-nav-item--collection">
+<a data-animation-role="header-element" href="../about/">
+        About
+      </a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+<!-- Actions -->
+<div class="header-actions header-actions--right">
+<div class="showOnMobile">
+</div>
+<div class="showOnDesktop">
+</div>
+</div>
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+<!-- Burger -->
+<div class="header-burger menu-overlay-does-not-have-visible-non-navigation-items no-actions" data-animation-role="header-element">
+<button class="header-burger-btn burger" data-test="header-burger">
+<span class="js-header-burger-open-title visually-hidden" hidden="">Open Menu</span>
+<span class="js-header-burger-close-title visually-hidden" hidden="">Close Menu</span>
+<div class="burger-box">
+<div class="burger-inner header-menu-icon-doubleLineHamburger">
+<div class="top-bun"></div>
+<div class="patty"></div>
+<div class="bottom-bun"></div>
+</div>
+</div>
+</button>
+</div>
+</div>
+<div class="header-display-mobile" data-content-field="site-title">
+<!-- Social -->
+<!-- Title and nav wrapper -->
+<div class="header-title-nav-wrapper">
+<!-- Title -->
+<div class="header-title" data-animation-role="header-element">
+<div class="header-title-text">
+<a data-animation-role="header-element" href="../" id="site-title">Tax Base Fragmentation</a>
+</div>
+</div>
+<!-- Nav -->
+<div class="header-nav">
+<div class="header-nav-wrapper">
+<nav class="header-nav-list">
+<div class="header-nav-item header-nav-item--collection header-nav-item--homepage">
+<a data-animation-role="header-element" href="../">
+        Map
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--collection">
+<a data-animation-role="header-element" href="../how-to-use/">
+        How to Use
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--collection header-nav-item--active">
+<a aria-current="page" data-animation-role="header-element" href="../data/">
+        Data
+      </a>
+</div>
+<div class="header-nav-item header-nav-item--external">
+<a data-animation-role="header-element" href="https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwaf055/8286993" rel="noopener noreferrer" target="_blank">Paper</a>
+</div>
+<div class="header-nav-item header-nav-item--collection">
+<a data-animation-role="header-element" href="../about/">
+        About
+      </a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+<!-- Actions -->
+<div class="header-actions header-actions--right">
+<div class="showOnMobile">
+</div>
+<div class="showOnDesktop">
+</div>
+</div>
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+<!-- Burger -->
+<div class="header-burger menu-overlay-does-not-have-visible-non-navigation-items no-actions" data-animation-role="header-element">
+<button class="header-burger-btn burger" data-test="header-burger">
+<span class="js-header-burger-open-title visually-hidden" hidden="">Open Menu</span>
+<span class="js-header-burger-close-title visually-hidden" hidden="">Close Menu</span>
+<div class="burger-box">
+<div class="burger-inner header-menu-icon-doubleLineHamburger">
+<div class="top-bun"></div>
+<div class="patty"></div>
+<div class="bottom-bun"></div>
+</div>
+</div>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- (Mobile) Menu Navigation -->
+<div class="header-menu header-menu--folder-list" data-current-styles='{
+                                    "layout": "navRight",
+                                    "action": {
+                                      "href": "/appointments",
+                                      "buttonText": "Book now",
+                                      "newWindow": false
+                                    },
+                                    "showSocial": false,
+                                    "socialOptions": {
+                                      "socialBorderShape": "none",
+                                      "socialBorderStyle": "outline",
+                                      "socialBorderThickness": {
+                                        "unit": "px",
+                                        "value": 1.0
+                                      }
+                                    },
+                                    "menuOverlayAnimation": "fade",
+                                    "cartStyle": "text",
+                                    "cartText": "Cart",
+                                    "showEmptyCartState": false,
+                                    "cartOptions": {
+                                      "iconType": "stroke-9",
+                                      "cartBorderShape": "none",
+                                      "cartBorderStyle": "outline",
+                                      "cartBorderThickness": {
+                                        "unit": "px",
+                                        "value": 1.0
+                                      }
+                                    },
+                                    "showButton": false,
+                                    "showCart": false,
+                                    "showAccountLogin": false,
+                                    "headerStyle": "dynamic",
+                                    "languagePicker": {
+                                      "enabled": false,
+                                      "iconEnabled": false,
+                                      "iconType": "globe",
+                                      "flagShape": "shiny",
+                                      "languageFlags": [ ]
+                                    },
+                                    "iconOptions": {
+                                      "desktopDropdownIconOptions": {
+                                        "size": {
+                                          "unit": "em",
+                                          "value": 1.0
+                                        },
+                                        "iconSpacing": {
+                                          "unit": "em",
+                                          "value": 0.35
+                                        },
+                                        "strokeWidth": {
+                                          "unit": "px",
+                                          "value": 1.0
+                                        },
+                                        "endcapType": "square",
+                                        "folderDropdownIcon": "none",
+                                        "languagePickerIcon": "openArrowHead"
+                                      },
+                                      "mobileDropdownIconOptions": {
+                                        "size": {
+                                          "unit": "em",
+                                          "value": 1.0
+                                        },
+                                        "iconSpacing": {
+                                          "unit": "em",
+                                          "value": 0.15
+                                        },
+                                        "strokeWidth": {
+                                          "unit": "px",
+                                          "value": 0.5
+                                        },
+                                        "endcapType": "square",
+                                        "folderDropdownIcon": "openArrowHead",
+                                        "languagePickerIcon": "openArrowHead"
+                                      }
+                                    },
+                                    "mobileOptions": {
+                                      "layout": "logoLeftNavRight",
+                                      "menuIconOptions": {
+                                        "style": "doubleLineHamburger",
+                                        "thickness": {
+                                          "unit": "px",
+                                          "value": 1.0
+                                        }
+                                      }
+                                    },
+                                    "solidOptions": {
+                                      "headerOpacity": {
+                                        "unit": "%",
+                                        "value": 100.0
+                                      },
+                                      "blurBackground": {
+                                        "enabled": false,
+                                        "blurRadius": {
+                                          "unit": "px",
+                                          "value": 12.0
+                                        }
+                                      }
+                                    },
+                                    "gradientOptions": {
+                                      "gradientType": "faded",
+                                      "headerOpacity": {
+                                        "unit": "%",
+                                        "value": 90.0
+                                      },
+                                      "blurBackground": {
+                                        "enabled": false,
+                                        "blurRadius": {
+                                          "unit": "px",
+                                          "value": 12.0
+                                        }
+                                      }
+                                    },
+                                    "dropShadowOptions": {
+                                      "enabled": false,
+                                      "blur": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      },
+                                      "spread": {
+                                        "unit": "px",
+                                        "value": 0.0
+                                      },
+                                      "distance": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      }
+                                    },
+                                    "borderOptions": {
+                                      "enabled": false,
+                                      "position": "allSides",
+                                      "thickness": {
+                                        "unit": "px",
+                                        "value": 4.0
+                                      }
+                                    },
+                                    "showPromotedElement": false,
+                                    "buttonVariant": "primary",
+                                    "blurBackground": {
+                                      "enabled": false,
+                                      "blurRadius": {
+                                        "unit": "px",
+                                        "value": 12.0
+                                      }
+                                    },
+                                    "headerOpacity": {
+                                      "unit": "%",
+                                      "value": 100.0
+                                    }
+                                  }' data-section-id="overlay-nav" data-section-theme="" data-show-account-login="false" data-test="header-menu">
+<div class="header-menu-bg theme-bg--primary"></div>
+<div class="header-menu-nav">
+<nav class="header-menu-nav-list">
+<div class="header-menu-nav-folder" data-folder="root">
+<div class="header-menu-nav-folder-content">
+<!-- Menu Navigation -->
+<div class="header-menu-nav-wrapper">
+<div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--homepage">
+<a href="../">
+<div class="header-menu-nav-item-content">
+                  Map
+                </div>
+</a>
+</div>
+<div class="container header-menu-nav-item header-menu-nav-item--collection">
+<a href="../how-to-use/">
+<div class="header-menu-nav-item-content">
+                  How to Use
+                </div>
+</a>
+</div>
+<div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active">
+<a aria-current="page" href="../data/">
+<div class="header-menu-nav-item-content">
+                  Data
+                </div>
+</a>
+</div>
+<div class="container header-menu-nav-item header-menu-nav-item--external">
+<a href="https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwaf055/8286993" rel="noopener noreferrer" target="_blank">Paper</a>
+</div>
+<div class="container header-menu-nav-item header-menu-nav-item--collection">
+<a href="../about/">
+<div class="header-menu-nav-item-content">
+                  About
+                </div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+
+</header>
+<main class="container" id="page" role="main">
+<article class="page-regions" data-collection-id="6880f8248e50551cd5db55bc" data-item-id="" data-regions-source="collection" id="page-regions">
+<section class="region" data-region-id="c1577fb655be051d59e50ad3" data-region-source="collection">
+<section class="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle" data-animation="none" data-current-context='{
+                                    "video": null,
+                                    "backgroundImageId": null,
+                                    "backgroundMediaEffect": null,
+                                    "divider": null,
+                                    "typeName": "page"
+                                  }' data-current-styles='{
+                                    "imageOverlayOpacity": 0.15,
+                                    "backgroundWidth": "background-width--full-bleed",
+                                    "sectionHeight": "section-height--medium",
+                                    "customSectionHeight": 10,
+                                    "horizontalAlignment": "horizontal-alignment--center",
+                                    "verticalAlignment": "vertical-alignment--middle",
+                                    "contentWidth": "content-width--wide",
+                                    "customContentWidth": 50,
+                                    "sectionTheme": "",
+                                    "sectionAnimation": "none",
+                                    "backgroundMode": "image"
+                                  }' data-fluid-engine-section="" data-section-id="6880f849df26e82c14567d0a" data-section-theme="" data-sqsp-section="fluid-engine" data-test="page-section">
+<div class="section-border">
+<div class="section-background">
+</div>
+</div>
+<div class="content-wrapper" style="
+      
+        
+      
+    ">
+<div class="content">
+<div data-fluid-engine="true"><style>
+
+.fe-6880f84921764f694375de8c {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(3,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-6880f84921764f694375de8c {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-6880f84921764f694375de8c {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(22,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-yui_3_17_2_1_1753281762230_1906 {
+    grid-area: 2/2/3/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+        
+      
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1753281762230_1906 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-yui_3_17_2_1_1753281762230_1906 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1753281762230_1906 {
+      grid-area: 1/3/15/19;
+      z-index: 1;
+
+      
+        
+      
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1753281762230_1906 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-yui_3_17_2_1_1753281762230_1906 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+</style><div class="fluid-engine fe-6880f84921764f694375de8c"><div class="fe-block fe-block-yui_3_17_2_1_1753281762230_1906"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block" data-block-type="1337" data-definition-name="website.components.html" data-sqsp-block="text" data-website-component-id="yui_3_17_2_1_1753281762230_1906" id="block-yui_3_17_2_1_1753281762230_1906"><div class="sqs-block-content"><div class="sqs-text-block-container">
+<div class="sqs-html-content" data-sqsp-text-block-content=""><h4 style="white-space:pre-wrap;">Data</h4><p class="" style="white-space:pre-wrap;">You can download the data underlying the visualization here. This analysis is based on tax assessor records for the year 2019, originally compiled by CoreLogic (now <a href="https://www.cotality.com/" rel="noopener noreferrer" target="_blank">Cotality</a>). Details of our methodology are provided in the <a href="https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwaf055/8286993#supplementary-data" rel="noopener noreferrer" target="_blank">Supplementary Appendix</a> to our <a href="https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwaf055/8286993" rel="noopener noreferrer" target="_blank">academic paper</a>.</p><p class="sqsrte-large" style="white-space:pre-wrap;">Jurisdiction-level data:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;"><a download="" href="../s/jurisdiction_data_cbsa_gen_purpose_govts.csv" rel="noopener noreferrer" target="_blank">General-purpose local governments</a> </p></li><li><p class="" style="white-space:pre-wrap;"><a download="" href="../s/jurisdiction_data_cbsa_school_districts.csv" rel="noopener noreferrer" target="_blank">School districts</a> (not visualized)</p></li></ul><p class="sqsrte-large" style="white-space:pre-wrap;">Metro area-level summary data (not visualized)</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Core-Based Statistical Areas: <a download="" href="../s/metro_data_cbsa_gen_purpose_govts.csv" rel="noopener noreferrer" target="_blank">general-purpose local governments</a>, <a download="" href="../s/metro_data_cbsa_school_districts.csv" rel="noopener noreferrer" target="_blank">school districts</a></p></li><li><p class="" style="white-space:pre-wrap;">Commuting Zones: <a download="" href="../s/metro_data_cz_gen_purpose_govts.csv" rel="noopener noreferrer" target="_blank">general-purpose local governments</a>, <a download="" href="../s/metro_data_cz_school_districts.csv" rel="noopener noreferrer" target="_blank">school districts</a> </p></li></ul><p class="" style="white-space:pre-wrap;">A replication package containing these data as well as code for the academic paper is available <a href="https://robertmanduca.com/publications/" rel="noopener noreferrer" target="_blank">here</a>.</p></div>
+<style id="container-styles">#block-yui_3_17_2_1_1753281762230_1906 {
+    
+    --stroke-style: none;--stroke-thickness: 0px;
+    
+      
+      
+      
+    
+
+
+
+  }
+
+  #block-yui_3_17_2_1_1753281762230_1906 .sqs-html-content {
+    
+    --tweak-text-block-padding: 3% 3% 3% 3%;
+  --tweak-text-block-padding: initial;
+}
+
+  .fe-block-yui_3_17_2_1_1753281762230_1906 {
+      mix-blend-mode: var(--tweak-text-block-blend
+  );
+      border-radius: var(--tweak-text-block-radius);
+  }
+
+  
+  
+.fe-block-yui_3_17_2_1_1753281762230_1906 {
+      --tweak-text-block-radius: 0px 0px 0px 0px;
+    }
+
+
+  
+  .fe-block-yui_3_17_2_1_1753281762230_1906 {
+      --tweak-text-block-blend
+  : normal;
+    }
+  
+
+  .fe-block-yui_3_17_2_1_1753281762230_1906 {
+    --blur-value: blur(0px);}
+
+</style>
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-yui_3_17_2_1_1753281762230_1906 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-yui_3_17_2_1_1753281762230_1906 .sqs-html-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+<style class="transform-overrides-vars">
+</style>
+</div>
+</div></div></div></div></div>
+</div>
+</div>
+</section>
+</section>
+</article>
+</main>
+<footer class="sections" data-footer-sections="" id="footer-sections">
+</footer>
+</div>
+
+<script defer="True" src="../assets/static-site.js"></script></body>
+</html>

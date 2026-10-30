@@ -1,0 +1,14 @@
+/* Preserve the original Squarespace layout without its hosted JavaScript. */
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
+[data-animation-role], .preFade, .preSlide, .preScale { opacity: 1 !important; transform: none !important; }
+.sqs-block-image img { opacity: 1 !important; }
+.header-menu { visibility: hidden !important; pointer-events: none !important; }
+.header-menu.static-menu-open { visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; transform: none !important; }
+.header-menu.static-menu-open .header-menu-nav { opacity: 1 !important; transform: none !important; }
+body.header-menu-open { overflow: hidden; }
+iframe { display: block; max-width: 100%; }
+@media (max-width: 767px) {
+  .header-title-text { font-size: clamp(13px, 3.7vw, 24px) !important; }
+  .header-title { max-width: calc(100% - 60px); }
+}

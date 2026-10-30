@@ -1,0 +1,346 @@
+{
+  "source": "https://www.taxbasefragmentation.net",
+  "captured": "2026-10-30",
+  "assets": {
+    "https://assets.squarespace.com/universal/default-favicon.ico": {
+      "path": "assets/27d34fd9d08d-default-favicon.ico",
+      "source_sha256": "0d75fa1c9f78745b408f55992519c9bd64dfdd5c1b456c5f48b5dc7c43184a8a",
+      "sha256": "0d75fa1c9f78745b408f55992519c9bd64dfdd5c1b456c5f48b5dc7c43184a8a"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/a0c107ba-c8a2-4332-8af4-5358d978bf3b/cyrillic-ext.woff2": {
+      "path": "assets/4c0e98bda14e-cyrillic-ext.woff2",
+      "source_sha256": "6f825067aab2d219f9cbe409d7735b91fda4501961a00566ccede3ced5699c86",
+      "sha256": "6f825067aab2d219f9cbe409d7735b91fda4501961a00566ccede3ced5699c86"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/14efa9e1-3d3a-40fc-8736-6f0d98887944/vietnamese.woff2": {
+      "path": "assets/5ce201f9880b-vietnamese.woff2",
+      "source_sha256": "f1e4c1809e9761a5d99ec15fe7af4f852d80addafd41ef67fb23790b1a8e1e4c",
+      "sha256": "f1e4c1809e9761a5d99ec15fe7af4f852d80addafd41ef67fb23790b1a8e1e4c"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/64b31e1e-144f-4c5b-a756-2f5df10c54d9/cyrillic.woff2": {
+      "path": "assets/06f0fb0c5967-cyrillic.woff2",
+      "source_sha256": "bd9230b5bfd6dbc5086112b5543349a0b3dd93df34a6972ddf404765b4a0e996",
+      "sha256": "bd9230b5bfd6dbc5086112b5543349a0b3dd93df34a6972ddf404765b4a0e996"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/caa76683-304e-483d-908e-9488316d77f8/latin.woff2": {
+      "path": "assets/e74bcba08b09-latin.woff2",
+      "source_sha256": "35e43acc473a21ada88be0afaaa097a92838bba43501041a6a4d4741b54c8f8b",
+      "sha256": "35e43acc473a21ada88be0afaaa097a92838bba43501041a6a4d4741b54c8f8b"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/6ea97bad-a383-417c-b42b-2272afbe9400/latin-ext.woff2": {
+      "path": "assets/78b00075ef05-latin-ext.woff2",
+      "source_sha256": "d7aa618aa5e2da1de65c8d6fc87ebdde16b870fd767d9c63e5ddad8b1c79ca06",
+      "sha256": "d7aa618aa5e2da1de65c8d6fc87ebdde16b870fd767d9c63e5ddad8b1c79ca06"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/ed22e94a-a7e4-43cd-ba3f-c7b8ba76fa6a/cyrillic-ext.woff2": {
+      "path": "assets/3ed3e31f12f3-cyrillic-ext.woff2",
+      "source_sha256": "6f825067aab2d219f9cbe409d7735b91fda4501961a00566ccede3ced5699c86",
+      "sha256": "6f825067aab2d219f9cbe409d7735b91fda4501961a00566ccede3ced5699c86"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/d8411511-2fe7-49f4-b86b-fe14dfbd835d/latin.woff2": {
+      "path": "assets/b5d1bebf60ef-latin.woff2",
+      "source_sha256": "35e43acc473a21ada88be0afaaa097a92838bba43501041a6a4d4741b54c8f8b",
+      "sha256": "35e43acc473a21ada88be0afaaa097a92838bba43501041a6a4d4741b54c8f8b"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e6145b5b-ca74-41fc-abd5-87a6027626b3/vietnamese.woff2": {
+      "path": "assets/2c8fe2f7698b-vietnamese.woff2",
+      "source_sha256": "f1e4c1809e9761a5d99ec15fe7af4f852d80addafd41ef67fb23790b1a8e1e4c",
+      "sha256": "f1e4c1809e9761a5d99ec15fe7af4f852d80addafd41ef67fb23790b1a8e1e4c"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/63e43434-b09d-4408-aef2-f408b09f06a8/cyrillic.woff2": {
+      "path": "assets/9793e3364943-cyrillic.woff2",
+      "source_sha256": "bd9230b5bfd6dbc5086112b5543349a0b3dd93df34a6972ddf404765b4a0e996",
+      "sha256": "bd9230b5bfd6dbc5086112b5543349a0b3dd93df34a6972ddf404765b4a0e996"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/9cf53f57-5b80-49a2-b37a-addc07a3c777/latin-ext.woff2": {
+      "path": "assets/e9b8317764bc-latin-ext.woff2",
+      "source_sha256": "d7aa618aa5e2da1de65c8d6fc87ebdde16b870fd767d9c63e5ddad8b1c79ca06",
+      "sha256": "d7aa618aa5e2da1de65c8d6fc87ebdde16b870fd767d9c63e5ddad8b1c79ca06"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/77303311-9f00-4882-8ea6-8dcc943e8791/latin.woff2": {
+      "path": "assets/54933cad69f3-latin.woff2",
+      "source_sha256": "5727ea0845d34dc54ac40cf074caf2377112134bcd885d4c02bc369289f3b418",
+      "sha256": "5727ea0845d34dc54ac40cf074caf2377112134bcd885d4c02bc369289f3b418"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/4e50a927-7e41-4a74-8f06-f470b9c14cea/vietnamese.woff2": {
+      "path": "assets/aa9b356af5e9-vietnamese.woff2",
+      "source_sha256": "9bec89d69fa4886f9d4b3a2c5cf7b69da0de9ee68d9899fe55659f029e2f8f05",
+      "sha256": "9bec89d69fa4886f9d4b3a2c5cf7b69da0de9ee68d9899fe55659f029e2f8f05"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/0e979f31-4226-477a-9888-b6c81d5b55d4/latin-ext.woff2": {
+      "path": "assets/12eeac743388-latin-ext.woff2",
+      "source_sha256": "a07fc65e253654806ee02cdf38c7d9f85af848c393263fbfb62e0b99a009e0e6",
+      "sha256": "a07fc65e253654806ee02cdf38c7d9f85af848c393263fbfb62e0b99a009e0e6"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/23e3082b-d762-4bb4-a03a-a15e96509aff/latin-ext.woff2": {
+      "path": "assets/41c5c495af01-latin-ext.woff2",
+      "source_sha256": "a07fc65e253654806ee02cdf38c7d9f85af848c393263fbfb62e0b99a009e0e6",
+      "sha256": "a07fc65e253654806ee02cdf38c7d9f85af848c393263fbfb62e0b99a009e0e6"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/6a06f0f4-199b-4d0c-a434-f2f4b5bffd5f/latin.woff2": {
+      "path": "assets/f37486b7b4b9-latin.woff2",
+      "source_sha256": "5727ea0845d34dc54ac40cf074caf2377112134bcd885d4c02bc369289f3b418",
+      "sha256": "5727ea0845d34dc54ac40cf074caf2377112134bcd885d4c02bc369289f3b418"
+    },
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/b700e5bd-dca2-4473-be2d-da21f9356557/vietnamese.woff2": {
+      "path": "assets/f41167ead0aa-vietnamese.woff2",
+      "source_sha256": "9bec89d69fa4886f9d4b3a2c5cf7b69da0de9ee68d9899fe55659f029e2f8f05",
+      "sha256": "9bec89d69fa4886f9d4b3a2c5cf7b69da0de9ee68d9899fe55659f029e2f8f05"
+    },
+    "https://assets.squarespace.com/universal/styles-compressed/user-account-core-3ce4a177e88d8fa4-min.en-US.css": {
+      "path": "assets/516d8485f994-user-account-core-3ce4a177e88d8fa4-min.en-US.css",
+      "source_sha256": "0b5c4308f4e10d9992eb018cf7221f28b8c43b0a0688be0646a153785640702a",
+      "sha256": "0b5c4308f4e10d9992eb018cf7221f28b8c43b0a0688be0646a153785640702a"
+    },
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.embed/b47f0adc-84df-471a-b077-f2b945ba85bf_769/website.components.embed.styles.css": {
+      "path": "assets/b506809e13be-website.components.embed.styles.css",
+      "source_sha256": "b0a7c7b76b1b3ef41fcb3db406a79dc3d4b8daafc3443b6ab436a3322a8a0af7",
+      "sha256": "b0a7c7b76b1b3ef41fcb3db406a79dc3d4b8daafc3443b6ab436a3322a8a0af7"
+    },
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/c6d46408-e423-4cc0-abfb-b8dc62001ded_1024/website.components.html.styles.css": {
+      "path": "assets/c9dbe9f9d3f1-website.components.html.styles.css",
+      "source_sha256": "62851efff91ee5fe72cea604fca72bbd29cfe282a517f1cbca5ba647285a1b65",
+      "sha256": "62851efff91ee5fe72cea604fca72bbd29cfe282a517f1cbca5ba647285a1b65"
+    },
+    "https://static1.squarespace.com/static/versioned-site-css/687fe221996d1741d64fe499/20/5c5a519771c10ba3470d8101/687fe222996d1741d64fe4bb/1847/site.css?nocustom=true": {
+      "path": "assets/eaa953a3b078-site.css",
+      "source_sha256": "a3273c73902d5a1bc644e69ad478ae10d1685f19d7504a43123227fcada50dd6",
+      "sha256": "3b23e53115149bf32e920f6e0ba39298aec5373ab1d0a692ffbfeea9e643ec1f"
+    },
+    "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1793303477445-MV4SEJ2ESJHA5E89L1J2/static.css": {
+      "path": "assets/9fd140d6d817-static.css",
+      "source_sha256": "36576bc902a3065e6148beb1e19b303c401f2115c4b8686613e0fd74522e48b3",
+      "sha256": "36576bc902a3065e6148beb1e19b303c401f2115c4b8686613e0fd74522e48b3"
+    },
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.form/a7aba728-3031-4f72-b785-1c9de35fbf2f_1196/website.components.form.styles.css": {
+      "path": "assets/a5d2c84a060d-website.components.form.styles.css",
+      "source_sha256": "05fe976854954d1af992ded4c569ad5ed391835993bfbf5ce28e159e8d433327",
+      "sha256": "811ac32657c344e691995ffe6b1119fdd955a66d1f0a27732af19288d66e8d99"
+    },
+    "https://www.taxbasefragmentation.net/s/jurisdiction_data_cbsa_gen_purpose_govts.csv": {
+      "path": "s/jurisdiction_data_cbsa_gen_purpose_govts.csv",
+      "source_sha256": "94a8ff34cae5dddf16b0bf2bcaba911f41390868c46995096fb04bc5265b0aba",
+      "sha256": "94a8ff34cae5dddf16b0bf2bcaba911f41390868c46995096fb04bc5265b0aba"
+    },
+    "https://www.taxbasefragmentation.net/s/jurisdiction_data_cbsa_school_districts.csv": {
+      "path": "s/jurisdiction_data_cbsa_school_districts.csv",
+      "source_sha256": "1c19b25a8cd6904fccf1fc9e2f480d016514ab8a52c193262406d4a2c2db1e78",
+      "sha256": "1c19b25a8cd6904fccf1fc9e2f480d016514ab8a52c193262406d4a2c2db1e78"
+    },
+    "https://www.taxbasefragmentation.net/s/metro_data_cbsa_gen_purpose_govts.csv": {
+      "path": "s/metro_data_cbsa_gen_purpose_govts.csv",
+      "source_sha256": "a544111bbb730b69bf504ce7ac5ce058f8cd79750dd1a0fbaac4cad025eba788",
+      "sha256": "a544111bbb730b69bf504ce7ac5ce058f8cd79750dd1a0fbaac4cad025eba788"
+    },
+    "https://www.taxbasefragmentation.net/s/metro_data_cbsa_school_districts.csv": {
+      "path": "s/metro_data_cbsa_school_districts.csv",
+      "source_sha256": "0a41787d40397331a486b43174bc03dc3b15b2bb8dd22e7a0c81f1c9110198ff",
+      "sha256": "0a41787d40397331a486b43174bc03dc3b15b2bb8dd22e7a0c81f1c9110198ff"
+    },
+    "https://www.taxbasefragmentation.net/s/metro_data_cz_gen_purpose_govts.csv": {
+      "path": "s/metro_data_cz_gen_purpose_govts.csv",
+      "source_sha256": "f62c2ef61f0cc7fe7f8e6ba7a4fc870bc0660d9ad664cf163d8b4e404425155e",
+      "sha256": "f62c2ef61f0cc7fe7f8e6ba7a4fc870bc0660d9ad664cf163d8b4e404425155e"
+    },
+    "https://www.taxbasefragmentation.net/s/metro_data_cz_school_districts.csv": {
+      "path": "s/metro_data_cz_school_districts.csv",
+      "source_sha256": "5f3a8d148c0b4b0bd1419246d0ab3417c1a9f13ddcbe8a7b83013de7d79373b9",
+      "sha256": "5f3a8d148c0b4b0bd1419246d0ab3417c1a9f13ddcbe8a7b83013de7d79373b9"
+    },
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/fcaf5e48-08f6-4f2b-9e46-b0084f659381_1011/website.components.imageFluid.styles.css": {
+      "path": "assets/d59ec8758133-website.components.imageFluid.styles.css",
+      "source_sha256": "e6a9736ab3392fab2fd6702a1b530cec9b5243c68c77cefcd1004bf377bcae69",
+      "sha256": "e6a9736ab3392fab2fd6702a1b530cec9b5243c68c77cefcd1004bf377bcae69"
+    },
+    "https://images.squarespace-cdn.com/content/v1/687fe221996d1741d64fe499/6dd8c05e-3088-41af-a599-e2096a20fd28/Screenshot+2025-10-29+at+11.47.06%E2%80%AFAM.png": {
+      "path": "assets/cfa2ac87cfc6-Screenshot-2025-10-29-at-11.47.06-AM.png",
+      "source_sha256": "190aa8607365d4a61104569141f24ece0be4f639124e37d6c2a1d2087dc4a70f",
+      "sha256": "190aa8607365d4a61104569141f24ece0be4f639124e37d6c2a1d2087dc4a70f"
+    },
+    "https://images.squarespace-cdn.com/content/v1/687fe221996d1741d64fe499/c6bf9dd7-484c-49ee-b38a-54c9b3e193eb/Screenshot+2025-10-29+at+11.46.42%E2%80%AFAM.png": {
+      "path": "assets/b047fa5d7a16-Screenshot-2025-10-29-at-11.46.42-AM.png",
+      "source_sha256": "bba00fcbdabac75e28a302b90b1b8dc4294036093c0470c0b89084f46784e1af",
+      "sha256": "bba00fcbdabac75e28a302b90b1b8dc4294036093c0470c0b89084f46784e1af"
+    },
+    "https://images.squarespace-cdn.com/content/v1/687fe221996d1741d64fe499/83fb3a7d-7fdc-4eb9-b787-b34bb37ca64e/Screenshot+2025-10-29+at+11.47.26%E2%80%AFAM.png": {
+      "path": "assets/a365e9f4cfba-Screenshot-2025-10-29-at-11.47.26-AM.png",
+      "source_sha256": "2c5416b372f3605e0aeb8c0a69611f5d086aab4d8986b0992e1c5886b2a828b3",
+      "sha256": "2c5416b372f3605e0aeb8c0a69611f5d086aab4d8986b0992e1c5886b2a828b3"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/error-dark.png": {
+      "path": "assets/678af680adca-error-dark.png",
+      "source_sha256": "b709a4b47768d2a15152bd6f69a4a7c7768ec19537188c5f999c693f8e22249c",
+      "sha256": "b709a4b47768d2a15152bd6f69a4a7c7768ec19537188c5f999c693f8e22249c"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/error-dark@2x.png": {
+      "path": "assets/850048a1b8b3-error-dark-2x.png",
+      "source_sha256": "ba2cb1879206e3b94683b4ef18a0db806286dbfa47efc3b199f14e3050526494",
+      "sha256": "ba2cb1879206e3b94683b4ef18a0db806286dbfa47efc3b199f14e3050526494"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/play-button.png": {
+      "path": "assets/0c29686cdd65-play-button.png",
+      "source_sha256": "c8e214c8a689800e4083b385274bb0dc12ced5d3e08ec4c4e93da64a56b671a3",
+      "sha256": "c8e214c8a689800e4083b385274bb0dc12ced5d3e08ec4c4e93da64a56b671a3"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/play-button@2x.png": {
+      "path": "assets/694fa1986887-play-button-2x.png",
+      "source_sha256": "91b16760ef63b3f07e88e28fa4e0dd4a56013e7d43754a2a65e8fe7f78ff7ac3",
+      "sha256": "91b16760ef63b3f07e88e28fa4e0dd4a56013e7d43754a2a65e8fe7f78ff7ac3"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/edit-aviary-light.png": {
+      "path": "assets/f99b85facdd0-edit-aviary-light.png",
+      "source_sha256": "804733d799cf64fe2cde46abce2fadf6bb0a6a09c8fc3e0100b0fb724ea42f7e",
+      "sha256": "804733d799cf64fe2cde46abce2fadf6bb0a6a09c8fc3e0100b0fb724ea42f7e"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/edit-aviary-light@2x.png": {
+      "path": "assets/d1b7b16844c8-edit-aviary-light-2x.png",
+      "source_sha256": "f1f8e262c6997136a55d3872ed235226187cf7db6fa2b70f29d0b4461de1fa9a",
+      "sha256": "f1f8e262c6997136a55d3872ed235226187cf7db6fa2b70f29d0b4461de1fa9a"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/edit-info-light.png": {
+      "path": "assets/6515a4ce4f78-edit-info-light.png",
+      "source_sha256": "9aad395bfb9f92176e54943e32dfdaeb0af2bd040df88dc057a7134ced3f498c",
+      "sha256": "9aad395bfb9f92176e54943e32dfdaeb0af2bd040df88dc057a7134ced3f498c"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/edit-info-light@2x.png": {
+      "path": "assets/a1c0f7e16624-edit-info-light-2x.png",
+      "source_sha256": "e8d16fc04f91fcd0e6bf79d51ee7b4de31fa7cee65bcfe3f7d51ab59285014e1",
+      "sha256": "e8d16fc04f91fcd0e6bf79d51ee7b4de31fa7cee65bcfe3f7d51ab59285014e1"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/trash-9-light.png": {
+      "path": "assets/7de341a02b66-trash-9-light.png",
+      "source_sha256": "2c659225f0927e6b828a474bac2d291ff932b05bdb949db9de004bcb3130dc8c",
+      "sha256": "2c659225f0927e6b828a474bac2d291ff932b05bdb949db9de004bcb3130dc8c"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png": {
+      "path": "assets/21ae801bf463-trash-9-light-2x.png",
+      "source_sha256": "79fcc834a3af12f7db601bf955c933931279db0390f7aa725d060a19cab11646",
+      "sha256": "79fcc834a3af12f7db601bf955c933931279db0390f7aa725d060a19cab11646"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/trash-9-red.png": {
+      "path": "assets/e7c12df618b7-trash-9-red.png",
+      "source_sha256": "ace98c266accd35a3f7fb78946d7728313325d8a7e420acc19c297331a8db8e5",
+      "sha256": "ace98c266accd35a3f7fb78946d7728313325d8a7e420acc19c297331a8db8e5"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/trash-9-red@2x.png": {
+      "path": "assets/c30ee415aa70-trash-9-red-2x.png",
+      "source_sha256": "7f2a30bd1fe8b4cc2c622bd38552d4452327f65a810c9eb6b96937b731ea39d2",
+      "sha256": "7f2a30bd1fe8b4cc2c622bd38552d4452327f65a810c9eb6b96937b731ea39d2"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/getty-16-light.png": {
+      "path": "assets/3553a4129616-getty-16-light.png",
+      "source_sha256": "299509eb1233b87e1965a273eede209d9e04d393eff2812a80eeb0dbc430718b",
+      "sha256": "299509eb1233b87e1965a273eede209d9e04d393eff2812a80eeb0dbc430718b"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/getty-32-light.png": {
+      "path": "assets/8bd31ed280f3-getty-32-light.png",
+      "source_sha256": "6530213db066fc0e5dd15f17cbfc7c7169fe4f855e3695e5bb10ec919807b1ff",
+      "sha256": "6530213db066fc0e5dd15f17cbfc7c7169fe4f855e3695e5bb10ec919807b1ff"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/shopping-cart-16-light.png": {
+      "path": "assets/a9a4147de3d6-shopping-cart-16-light.png",
+      "source_sha256": "80aaa276275997c0ec2296cde87ffdc62dd7a2faf65ab29072a852ec7a78deae",
+      "sha256": "80aaa276275997c0ec2296cde87ffdc62dd7a2faf65ab29072a852ec7a78deae"
+    },
+    "https://assets.squarespace.com/universal/images-v6/damask/shopping-cart-32-light.png": {
+      "path": "assets/171b1e46a8a2-shopping-cart-32-light.png",
+      "source_sha256": "d093542cefae85b6e0d0fdf2b2e7ffddbb04d6230727f25afcf11bf53939a227",
+      "sha256": "d093542cefae85b6e0d0fdf2b2e7ffddbb04d6230727f25afcf11bf53939a227"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/block-indicator-dark.png": {
+      "path": "assets/653ce462f0e9-block-indicator-dark.png",
+      "source_sha256": "a93c4c81b16dc6dd989522dcf7333b105ead0e00de53fba509e7f3027c3a6ed3",
+      "sha256": "a93c4c81b16dc6dd989522dcf7333b105ead0e00de53fba509e7f3027c3a6ed3"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/block-indicator-dark@2x.png": {
+      "path": "assets/4106c84e9c46-block-indicator-dark-2x.png",
+      "source_sha256": "ed4ae13d517520349e6270ce4ccdfe13e5727e7038fac8a035515bfe0fc04615",
+      "sha256": "ed4ae13d517520349e6270ce4ccdfe13e5727e7038fac8a035515bfe0fc04615"
+    },
+    "https://assets.squarespace.com/universal/fonts/squarespace-ui-font.eot": {
+      "path": "assets/d5932607ef34-squarespace-ui-font.eot",
+      "source_sha256": "9773e84f6d73150b243e25c64a603ec3b0270aa733a14a79926b0fd95ace401d",
+      "sha256": "9773e84f6d73150b243e25c64a603ec3b0270aa733a14a79926b0fd95ace401d"
+    },
+    "https://assets.squarespace.com/universal/fonts/squarespace-ui-font.eot#iefix": {
+      "path": "assets/f1976adf8f40-squarespace-ui-font.eot",
+      "source_sha256": "9773e84f6d73150b243e25c64a603ec3b0270aa733a14a79926b0fd95ace401d",
+      "sha256": "9773e84f6d73150b243e25c64a603ec3b0270aa733a14a79926b0fd95ace401d"
+    },
+    "https://assets.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font": {
+      "path": "assets/1b5002e03d60-squarespace-ui-font.svg",
+      "source_sha256": "b2c65392aeaf9d21e88be0c05112727bd1043d04c0df3050a25873b2844577a8",
+      "sha256": "b2c65392aeaf9d21e88be0c05112727bd1043d04c0df3050a25873b2844577a8"
+    },
+    "https://assets.squarespace.com/universal/fonts/squarespace-ui-font.woff": {
+      "path": "assets/c158324d496a-squarespace-ui-font.woff",
+      "source_sha256": "b980267ac2254ef534bfe32055489ed677d461077b37f2ee62bf7b5fc4f7362f",
+      "sha256": "b980267ac2254ef534bfe32055489ed677d461077b37f2ee62bf7b5fc4f7362f"
+    },
+    "https://assets.squarespace.com/universal/fonts/squarespace-ui-font.ttf": {
+      "path": "assets/6be7dc4fb7c8-squarespace-ui-font.ttf",
+      "source_sha256": "ba86fe3e26f5d5b2fd2dc01683b9862d8c1c10b1cfc1b6cdb97cbc15069c9da6",
+      "sha256": "ba86fe3e26f5d5b2fd2dc01683b9862d8c1c10b1cfc1b6cdb97cbc15069c9da6"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/opentable-icons.svg": {
+      "path": "assets/64d30aa90d04-opentable-icons.svg",
+      "source_sha256": "5f18cf2f425d694b9bbdd4e3d5a4a5052fe72e83f6c193788b4cc70e74da15ca",
+      "sha256": "5f18cf2f425d694b9bbdd4e3d5a4a5052fe72e83f6c193788b4cc70e74da15ca"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/opentable-icons.png": {
+      "path": "assets/7dc03ad9bd5d-opentable-icons.png",
+      "source_sha256": "dfdcc05edf633393a5cf7530f1759823acbaccfc0d54269c61830f8b3cf53f6d",
+      "sha256": "dfdcc05edf633393a5cf7530f1759823acbaccfc0d54269c61830f8b3cf53f6d"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/icon-searchqueries-20-dark.png": {
+      "path": "assets/62c938bd1754-icon-searchqueries-20-dark.png",
+      "source_sha256": "922a90a66533a90f16c1ecf8adc85dffb39b11dbb9f7c4cbe13347358610f799",
+      "sha256": "922a90a66533a90f16c1ecf8adc85dffb39b11dbb9f7c4cbe13347358610f799"
+    },
+    "https://static1.squarespace.com/universal/images-v6/icons/icon-searchqueries-20-light.png": {
+      "path": "assets/233674a4555b-icon-searchqueries-20-light.png",
+      "source_sha256": "9cbe1fe50ac748d4a3f8a0927b15f0c23a4fa63a1267ff5605741fc12bf5f2d0",
+      "sha256": "9cbe1fe50ac748d4a3f8a0927b15f0c23a4fa63a1267ff5605741fc12bf5f2d0"
+    },
+    "https://assets.squarespace.com/universal/images-v6/icons/icon-video-24-light-solid.png": {
+      "path": "assets/bb495ad459c5-icon-video-24-light-solid.png",
+      "source_sha256": "101762e3384a74f5e093c8bc0edabb94d8f75a075479b1409e9329f63b139864",
+      "sha256": "101762e3384a74f5e093c8bc0edabb94d8f75a075479b1409e9329f63b139864"
+    },
+    "https://assets.squarespace.com/universal/images-v6/standard/icon_close_7_light.png": {
+      "path": "assets/2c5b0ec5e20f-icon_close_7_light.png",
+      "source_sha256": "cd52c4d783635c13d274f980f0347aa3c88bc11c26c602dad6c9fc5a2816a0ad",
+      "sha256": "cd52c4d783635c13d274f980f0347aa3c88bc11c26c602dad6c9fc5a2816a0ad"
+    },
+    "https://assets.squarespace.com/universal/images-v6/icons/icon-settings-16-light.png": {
+      "path": "assets/59e2e088dd39-icon-settings-16-light.png",
+      "source_sha256": "5dd52dcc457a0b59ae4c76b65a46c43d3653e333060fb57bf72bbdf97de89d6b",
+      "sha256": "5dd52dcc457a0b59ae4c76b65a46c43d3653e333060fb57bf72bbdf97de89d6b"
+    },
+    "https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.eot": {
+      "path": "assets/12d9be9114f0-social-icon-font.eot",
+      "source_sha256": "2643512cd9fd96b7b654c664abaf728ebd1f097fbb89c235e10344eaf28b576d",
+      "sha256": "2643512cd9fd96b7b654c664abaf728ebd1f097fbb89c235e10344eaf28b576d"
+    },
+    "https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.eot#iefix": {
+      "path": "assets/ac0ea5a541fe-social-icon-font.eot",
+      "source_sha256": "2643512cd9fd96b7b654c664abaf728ebd1f097fbb89c235e10344eaf28b576d",
+      "sha256": "2643512cd9fd96b7b654c664abaf728ebd1f097fbb89c235e10344eaf28b576d"
+    },
+    "https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.woff": {
+      "path": "assets/4eab0365594a-social-icon-font.woff",
+      "source_sha256": "4c2536979555e40b739d742d722d84ac0f2fc5c0911ab833773008b781411d54",
+      "sha256": "4c2536979555e40b739d742d722d84ac0f2fc5c0911ab833773008b781411d54"
+    },
+    "https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.ttf": {
+      "path": "assets/cdfa7a19a0ea-social-icon-font.ttf",
+      "source_sha256": "56a10f4f8fe8926e56e29b2cdf280beb74871808297b863fffcc17b5ba0f50ce",
+      "sha256": "56a10f4f8fe8926e56e29b2cdf280beb74871808297b863fffcc17b5ba0f50ce"
+    },
+    "https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.svg#social-icon-font": {
+      "path": "assets/61a4367491d7-social-icon-font.svg",
+      "source_sha256": "6be491a05f067cbb264e947021ed06461a15d998b6a2a8b6710eaeff6fe14a7a",
+      "sha256": "6be491a05f067cbb264e947021ed06461a15d998b6a2a8b6710eaeff6fe14a7a"
+    }
+  }
+}
