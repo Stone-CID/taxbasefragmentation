@@ -21,6 +21,14 @@ Squarespace's hosted runtime and analytics were removed. `assets/static-site.js`
 - This is a snapshot, not an automatic sync or a backup of the Squarespace editor, account, form submissions, or hosting configuration.
 - The original domain and its DNS have not been changed. This copy is hosted at the separate GitHub Pages URL above.
 
+## Review site and search indexing
+
+This GitHub Pages copy is a public review site. Every HTML page includes `<meta name="robots" content="noindex, nofollow"/>` to opt out of indexing by search engines that honor that directive. Crawling is left allowed so search engines can read it. This setting does not restrict who can open or share the link. Existing search results may take time to disappear after a recrawl.
+
+The GitHub repository and directly linked downloads are still public; the HTML directive does not make those resources private or prevent the repository from appearing in search. The original Squarespace website and external ArcGIS service are unaffected.
+
+See [review sharing settings](docs/review-sharing.md) for recommended options for future previews.
+
 ## Editing and publishing
 
 Edit `index.html`, `how-to-use/index.html`, `data/index.html`, or `about/index.html`. If changing the map page, keep `home/index.html` in sync, accounting for its `../` relative asset and navigation paths.
